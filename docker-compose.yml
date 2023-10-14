@@ -75,9 +75,9 @@ services:
     volumes:
       - db-data:/var/lib/mysql
     
-secrets:
-  gateway-admin-password:
-    file: secrets/gateway-admin-password
+#secrets:
+#  gateway-admin-password:
+#    file: secrets/gateway-admin-password
 
 volumes:
   gateway-data:
