@@ -16,8 +16,8 @@ x-ignition-opts:
   image: inductiveautomation/ignition:${IGNITION_VERSION:-latest}
 #  env_file: gw-init/gateway.env
 
-  secrets:
-    - gateway-admin-password
+  #secrets:
+  #  - gateway-admin-password
 
 services:
   gateway:
