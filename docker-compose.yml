@@ -14,7 +14,7 @@ x-ignition-opts:
   &ignition-opts
   <<: *default-logging
   image: inductiveautomation/ignition:${IGNITION_VERSION:-latest}
-  env_file: gw-init/gateway.env
+  env_file: /gw-init/gateway.env
   secrets:
     - gateway-admin-password
 
